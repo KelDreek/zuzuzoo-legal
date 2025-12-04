@@ -82,40 +82,35 @@
   <p><strong>Why we collect this:</strong> This is necessary to prevent fraudulent abuse of free trials and protect our business from repeated trial misuse. Without this, users could delete and reinstall the app indefinitely to receive unlimited free trials.</p>
   <p><strong>Your control:</strong> Parents may contact us at <a href="mailto:kazachonaksiarhei@gmail.com">kazachonaksiarhei@gmail.com</a> to request deletion of this identifier. Note that trial eligibility is also managed by Apple through your Apple ID and cannot be reset by us.</p>
 
-  <h3 class="subheading">2.3. Technical and analytics data (non-personal)</h3>
-  <p>We collect limited technical and analytics information to provide, maintain and improve the App. This data is anonymous or pseudonymized and may include:</p>
+  <h3 class="subheading">2.3. Technical and analytics data (limited)</h3>
+  <p>We intentionally do <strong>not</strong> use third-party analytics SDKs or remote crash-reporting services in the children's area of the App. The only technical data shared externally is the minimum required by RevenueCat to manage subscriptions (see Section 3). Other diagnostic or usage information remains local to the device and is not transmitted to third parties.</p>
   <ul>
-    <li><strong>Device information:</strong> Device model, operating system version, app version, language preference.</li>
-    <li><strong>App usage analytics:</strong> Which features are used, session duration, game completion rates, button taps (e.g., "user completed feeding game"). This data is aggregated and cannot identify individual children.</li>
-    <li><strong>Crash reports and diagnostic logs:</strong> Technical error logs collected by Bugfender when the app crashes or encounters errors. These logs include device state, error messages, and app performance data but do not include personal information.</li>
-    <li><strong>Subscription status:</strong> Whether a subscription is active, trial status, purchase receipts (handled securely by Apple and RevenueCat).</li>
+    <li><strong>Local app usage:</strong> Game progress and preferences are stored locally on the device and are not uploaded.</li>
+    <li><strong>Subscription metadata:</strong> Subscription status and minimal device info required by RevenueCat for purchase validation (device model, OS version, app version) may be transmitted to RevenueCat solely for subscription management.</li>
   </ul>
-  <p>This information is used only to support the App's functionality and stability and is not used to identify a child personally.</p>
+  <p>This approach ensures we do not collect behavior analytics or profiling data about children.</p>
 
   <h2 class="heading">3. How we collect data</h2>
   <p>Data is collected via:</p>
   <ul>
-    <li><strong>Firebase Analytics (Google):</strong> Collects anonymous usage statistics (screen views, feature usage, session times) to help us understand how the app is used and improve user experience. Firebase does not collect names, email addresses, or other personal identifiers from children. Firebase may collect IP addresses for geolocation (country-level only) and technical identifiers for crash reporting.</li>
-    <li><strong>Bugfender:</strong> Collects crash reports and diagnostic logs when the app encounters technical issues. Bugfender logs include device information, app state, and error messages but do not include personal data such as names or photos.</li>
-    <li><strong>RevenueCat:</strong> Manages subscription state and trial eligibility. RevenueCat receives the device identifier (IDFV) and subscription status to enforce trial rules. Actual payment processing is handled securely by Apple via the App Store; we never see or store credit card information.</li>
+    <li><strong>RevenueCat:</strong> Manages subscription state and trial eligibility. RevenueCat receives the device identifier (IDFV) and minimal subscription-related metadata to enforce trial rules and validate purchases. Actual payment processing is handled securely by Apple via the App Store; we never see or store credit card information.</li>
+    <li><strong>Local device storage:</strong> All gameplay progress, preferences, and settings are stored locally on the user's device and are not transmitted to external servers.</li>
   </ul>
-  <p>The App does not require account registration. All app content (saved progress, preferences) is stored locally on the user's device and is not transmitted to our servers.</p>
+  <p>We do <strong>not</strong> use Firebase, Bugfender, or any other third-party analytics/crash-reporting SDKs. We do <strong>not</strong> use advertising networks, behavioral analytics, or tracking services in the App.</p>
 
   <h2 class="heading">4. Legal bases for processing (GDPR)</h2>
   <p>For EU users (including Poland) our legal bases are:</p>
   <ul>
     <li><strong>Performance of a contract:</strong> Processing necessary to provide paid subscription services and app functionality (Article 6(1)(b) GDPR).</li>
-    <li><strong>Legitimate interests:</strong> Improving the App's stability, performance, and features through analytics and crash reports (Article 6(1)(f) GDPR). We have balanced this interest against user privacy and determined that minimal, anonymized data collection does not pose significant privacy risks. We do not use analytics to profile children or create individual user profiles.</li>
+    <li><strong>Legitimate interests:</strong> Protecting the service from fraud by enforcing trial eligibility (Article 6(1)(f) GDPR). We have balanced this interest against user privacy and determined that collecting only the device identifier for trial enforcement does not pose significant privacy risks.</li>
     <li><strong>Fraud prevention:</strong> Collecting device identifiers to prevent trial subscription abuse is a legitimate interest to protect our business and ensure fair access to trials (Article 6(1)(f) GDPR).</li>
   </ul>
-  <p>We do not rely on consent as our primary legal basis, but where required by law, we will ask for explicit parental consent before processing data.</p>
+  <p>We do not rely on consent as our primary legal basis, but where required by law, we will ask for explicit parental consent before processing data beyond what is described here.</p>
 
   <h2 class="heading">5. Use of collected data</h2>
   <ul>
     <li>Provide and maintain the App and subscription services.</li>
     <li>Enforce trial eligibility rules and prevent subscription fraud.</li>
-    <li>Monitor, analyze and improve app performance, stability, and user experience.</li>
-    <li>Detect, prevent and address technical issues, crashes, and bugs.</li>
     <li>Manage subscriptions and verify purchase state via RevenueCat and Apple.</li>
     <li>Comply with legal obligations and respond to lawful requests from authorities.</li>
   </ul>
@@ -123,24 +118,20 @@
   <ul>
     <li>Targeted advertising or behavioral profiling.</li>
     <li>Selling or renting data to third parties.</li>
-    <li>Contacting users directly (we have no contact information).</li>
+    <li>Contacting users directly (we have no contact information unless provided voluntarily).</li>
   </ul>
 
   <h2 class="heading">6. Disclosure of data to third parties</h2>
-  <p>We share limited data with the following trusted third-party service providers:</p>
+  <p>We share limited data with the following trusted third-party service providers only as described below:</p>
   <ul>
-    <li><strong>Firebase (Google LLC):</strong> Anonymous usage analytics and crash reporting. Firebase Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
-    <li><strong>RevenueCat (RevenueCat, Inc.):</strong> Subscription management and trial eligibility enforcement. RevenueCat receives device identifiers (IDFV) and subscription status. RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></li>
-    <li><strong>Bugfender (Mobile Jazz SL):</strong> Crash logs and diagnostic information for debugging purposes. Bugfender Privacy Policy: <a href="https://bugfender.com/privacy-policy" target="_blank">https://bugfender.com/privacy-policy</a></li>
+    <li><strong>RevenueCat (RevenueCat, Inc.):</strong> Subscription management and trial eligibility enforcement. RevenueCat receives device identifiers (IDFV) and subscription status strictly for the purposes of purchase validation and subscription lifecycle management. RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank">https://www.revenuecat.com/privacy</a></li>
     <li><strong>Apple Inc.:</strong> Payment processing, subscription management, and trial eligibility (managed through App Store). Apple Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank">https://www.apple.com/legal/privacy/</a></li>
   </ul>
-  <p>These service providers are contractually obligated to protect user data and use it only for the purposes we specify. We do not sell or rent user data to any third parties.</p>
+  <p>We do not use Firebase, Bugfender, or other analytics/crash-reporting third parties. We do not sell or rent user data to any third parties.</p>
 
   <h2 class="heading">7. Data retention</h2>
   <p>We retain data only as long as necessary to provide services and comply with legal obligations:</p>
   <ul>
-    <li><strong>Analytics data:</strong> Retained for 14 months (Firebase default), then automatically deleted.</li>
-    <li><strong>Crash reports:</strong> Retained for 90 days, then automatically deleted.</li>
     <li><strong>Device identifiers (IDFV):</strong> Retained in RevenueCat for the duration of the subscription lifecycle and up to 60 days after subscription termination to prevent trial abuse. Automatically deleted thereafter.</li>
     <li><strong>Subscription metadata:</strong> Retained for 7 years to comply with tax and accounting regulations, then deleted.</li>
     <li><strong>Local app data:</strong> Stored only on the user's device and can be deleted by uninstalling the app or clearing app data in iOS settings.</li>
@@ -148,11 +139,11 @@
   <p>Parents may request early deletion of data by contacting us at <a href="mailto:kazachonaksiarhei@gmail.com">kazachonaksiarhei@gmail.com</a>. We will respond within 48 hours and complete deletion within 30 days, except where retention is required by law.</p>
 
   <h2 class="heading">8. International transfers</h2>
-  <p>The Operator is based in Poland (EU). However, our third-party service providers (Firebase, RevenueCat, Bugfender) may process data outside the European Economic Area (EEA), including in the United States. These transfers are necessary to provide the App's services and are protected by:</p>
+  <p>The Operator is based in Poland (EU). Our third-party service provider (RevenueCat) may process data outside the European Economic Area (EEA), including in the United States. These transfers are necessary to provide the App's subscription services and are protected by:</p>
   <ul>
     <li>Standard Contractual Clauses (SCCs) approved by the European Commission.</li>
     <li>Adequacy decisions for certain countries.</li>
-    <li>Service providers' compliance with GDPR, COPPA, and other privacy frameworks.</li>
+    <li>Service providers' compliance with GDPR, COPPA, and other privacy frameworks where applicable.</li>
   </ul>
   <p>For more information about how our service providers protect data, please refer to their privacy policies linked in Section 6.</p>
 
@@ -177,7 +168,7 @@
   <p>We collect only the minimum data necessary to operate the App and enforce trial eligibility. We do not collect personal information such as names, email addresses, photos, or precise locations from children.</p>
   
   <h3 class="subheading">10.2. Parental consent and notification</h3>
-  <p>We notify parents about our data practices through this Privacy Policy. By allowing a child to use the App, parents consent to the minimal data collection described here (device identifiers for trial fraud prevention, anonymous analytics, crash reports).</p>
+  <p>We notify parents about our data practices through this Privacy Policy. By allowing a child to use the App, parents consent to the minimal data collection described here (device identifiers for trial fraud prevention and subscription management via RevenueCat).</p>
   <p>If we change our practices to collect additional personal information from children, we will notify parents and obtain verifiable parental consent before doing so.</p>
   
   <h3 class="subheading">10.3. Parental rights</h3>
@@ -196,20 +187,20 @@
   </ul>
   <p>We will verify your identity as the child's parent or guardian before fulfilling your request. We will respond within <strong>48 hours</strong> and complete your request within <strong>30 days</strong>.</p>
   
-  <h3 class="subheading">10.4. No third-party advertising</h3>
-  <p>The App does not display third-party advertisements or use behavioral advertising networks. We do not share children's data with advertisers.</p>
+  <h3 class="subheading">10.4. No third-party advertising and no analytics</h3>
+  <p>The App contains <strong>NO advertising</strong> and uses <strong>NO third-party advertising services</strong>. We do not use behavioral advertising networks, tracking, or profiling technologies in the App. We also do not use third-party analytics or remote crash-reporting services in the children's area of the App.</p>
 
   <h2 class="heading">11. Security</h2>
   <p>We implement industry-standard security measures to protect data, including:</p>
   <ul>
     <li>Encryption of data in transit (HTTPS/TLS) and at rest where applicable.</li>
     <li>Access controls and authentication for internal systems.</li>
-    <li>Regular security audits and updates of third-party SDKs.</li>
+    <li>Regular security updates and careful management of third-party libraries.</li>
     <li>Secure payment processing handled entirely by Apple (we never see payment information).</li>
   </ul>
   <p>However, no method of electronic transmission or storage is 100% secure. While we strive to protect your information using commercially acceptable means, we cannot guarantee absolute security. If you become aware of any security vulnerability, please report it to <a href="mailto:kazachonaksiarhei@gmail.com">kazachonaksiarhei@gmail.com</a>.</p>
 
-  <h2 class="heading">12. Children's privacy and parental responsibilities</h2>
+  <h2 class="heading">12. Parent Gate and parental responsibilities</h2>
   <p>The App is intended for use by children ages 2-6 under parental supervision. Parents and guardians are responsible for:</p>
   <ul>
     <li>Reviewing this Privacy Policy and Terms of Service before allowing their child to use the App.</li>
@@ -217,6 +208,7 @@
     <li>Managing in-app purchases and subscriptions through Apple's Screen Time and parental control settings (<a href="https://support.apple.com/en-us/HT201304" target="_blank">Learn more</a>).</li>
     <li>Enabling "Ask to Buy" to approve purchases made by children (<a href="https://support.apple.com/en-us/HT201089" target="_blank">Learn more</a>).</li>
   </ul>
+  <p><strong>Parent Gate Protection:</strong> All external links, subscription screens, and any settings that could lead to purchases or external websites are located behind a parent-gated section within the App to prevent access by children without parental approval.</p>
   <p>The App includes parental controls to restrict access to premium features. Parents can manage subscriptions and disable purchases through iOS Settings > Screen Time > Content & Privacy Restrictions.</p>
 
   <h2 class="heading">13. Changes to this Privacy Policy</h2>
