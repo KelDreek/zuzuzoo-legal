@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zuzuzoo — Android Terms of Service</title>
+  <style>
+    body {
+      background-color: transparent;
+      color: white;
+      font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 20px;
+      padding: 0 16px 20px 16px;
+    }
+
+    .main-title {
+      font-size: 39px;
+      font-weight: 900;
+      text-align: center;
+      text-shadow: 0 4px 4px rgba(0,0,0,0.4);
+      margin-top: 40px;
+      margin-bottom: 30px;
+      line-height: 42px;
+    }
+
+    .heading {
+      font-size: 30px;
+      font-weight: 900;
+      text-align: center;
+      text-shadow: 0 4px 4px rgba(0,0,0,0.4);
+      margin-top: 25px;
+      margin-bottom: 15px;
+      line-height: 32px;
+    }
+
+    .subheading {
+      font-size: 22px;
+      font-weight: 900;
+      text-align: center;
+      text-shadow: 0 4px 4px rgba(0,0,0,0.4);
+      margin-top: 20px;
+      margin-bottom: 10px;
+      line-height: 26px;
+    }
+
+    p, li {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: left;
+      text-shadow: 0 4px 4px rgba(0,0,0,0.4);
+      margin-bottom: 15px;
+    }
+
+    ul { padding-left: 25px; }
+    a { color: white; text-decoration: underline; }
+    footer { font-size: 12px; color: #ccc; margin-top: 30px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1 class="main-title">Zuzuzoo — Terms of Service</h1>
+
+  <p><strong>Effective date:</strong> August 24, 2026</p>
+  <p>Operator: <strong>Siarhei Kazachonak</strong> (<a href="mailto:kazachonaksiarhei@gmail.com">kazachonaksiarhei@gmail.com</a>), Poland.</p>
+  <p>These Terms apply to the Android version of Zuzuzoo with Google Play package name <strong>com.ohhimark.zuzuzoo</strong>.</p>
+
+  <h2 class="heading">1. Acceptance of Terms</h2>
+  <p>By downloading, installing, purchasing through, or using Zuzuzoo (the “App”), the adult parent or guardian responsible for the device agrees to these Terms of Service (“Terms”). If you do not agree, do not install, purchase through, or use the App.</p>
+  <p>The App is designed for young children, but a child cannot accept these Terms or enter into a subscription contract. A parent or legal guardian must review these Terms and the Privacy Policy and is responsible for the child’s use of the App.</p>
+
+  <h2 class="heading">2. App description and audience</h2>
+  <p>Zuzuzoo is an educational App for children ages 1–4. It teaches animals, sounds, habitats, food, homes, silhouettes, and basic categorization through interactive games and activities.</p>
+  <p>The App contains no advertising and is designed to avoid child-directed social, messaging, location, camera, microphone, and account-registration features. Parents should supervise use and control screen time and purchases.</p>
+
+  <h3 class="subheading">2.1. Device requirements</h3>
+  <p>The Android version requires Android 8.0 (API level 26) or later and a compatible phone or tablet. Storage requirements and device compatibility are shown by Google Play and may vary by device and App version. An internet connection is required to download the App, display subscription products, make or restore purchases, validate subscription access, and load legal documents. Core downloaded gameplay is intended to work offline.</p>
+
+  <h2 class="heading">3. No Zuzuzoo account</h2>
+  <p>The App does not require creation of a Zuzuzoo user account. Gameplay preferences are stored locally on the device. Google Play and RevenueCat may maintain purchase and anonymous entitlement records as described in the Privacy Policy.</p>
+
+  <h2 class="heading">4. Free and premium access</h2>
+  <p>The App may provide limited free access and may require an active subscription for additional games, rounds, content, or premium features. The exact free experience and premium benefits shown in the App may change as the App is improved, subject to applicable law and the terms presented before purchase.</p>
+
+  <h2 class="heading">5. Subscriptions and Google Play Billing</h2>
+
+  <h3 class="subheading">5.1. Available plans and price</h3>
+  <p>The App may offer monthly, annual, or other subscription plans configured in Google Play. The current price, currency, billing period, taxes, renewal terms, and any introductory offer are displayed in the App and in the Google Play purchase confirmation before you subscribe.</p>
+  <p>Prices are not fixed in these Terms because Google Play localizes prices and taxes by country and they may change. The Google Play confirmation screen controls if it differs from promotional or informational text elsewhere.</p>
+
+  <h3 class="subheading">5.2. Free trials and introductory offers</h3>
+  <p>A free trial or introductory offer is available only when it is displayed for your Google Play account before purchase. Eligibility, duration, and conversion price are determined by the applicable Google Play subscription offer. Not every user or plan is eligible.</p>
+  <p>Before confirming, Google Play will show the trial duration, the price and billing period after the trial, and the date or conditions on which billing begins. Unless cancelled before the trial or introductory period ends, the subscription automatically converts to the paid recurring plan shown at confirmation.</p>
+
+  <h3 class="subheading">5.3. Purchase authorization</h3>
+  <p>All Android purchases are processed by Google Play. The adult account holder must review and authorize the purchase using the confirmation and authentication method required by Google. We do not directly collect or store complete payment-card or bank-account details.</p>
+  <p>Your purchase is also subject to the <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play Terms of Service</a> and applicable Google Payments terms.</p>
+
+  <h3 class="subheading">5.4. Automatic renewal</h3>
+  <p>An auto-renewing subscription renews at the end of each billing period until cancelled. Google Play charges the payment method associated with the purchasing Google account according to the plan displayed at confirmation. Google Play will handle legally required price-change notices or consent.</p>
+
+  <h3 class="subheading">5.5. Managing and cancelling</h3>
+  <p>Uninstalling the App does not cancel a subscription. The purchasing adult can manage or cancel through Google Play:</p>
+  <ol>
+    <li>Open the Google Play Store using the Google account that made the purchase.</li>
+    <li>Open the profile menu and choose <strong>Payments &amp; subscriptions</strong>, then <strong>Subscriptions</strong>.</li>
+    <li>Select Zuzuzoo and follow the cancellation instructions.</li>
+  </ol>
+  <p>You may also use <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play subscription management</a>. Cancellation normally takes effect at the end of the already-paid billing period unless Google states otherwise. Access continues until the entitlement expires.</p>
+
+  <h3 class="subheading">5.6. Restoring purchases</h3>
+  <p>The App includes a Restore Purchase action. To restore access, use the same Google Play account that made the original purchase and ensure Google Play is installed and available. Restoration depends on a valid, active Google Play subscription and successful entitlement validation.</p>
+
+  <h3 class="subheading">5.7. Refunds and billing disputes</h3>
+  <p>Google Play processes Android payments and generally decides refund eligibility under its policies and applicable law. To request a refund or report an unauthorized purchase, use <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener noreferrer">Google Play’s refund process</a>. You may also contact us for help diagnosing an entitlement problem, but we cannot guarantee or directly issue every Google Play refund.</p>
+  <p>Nothing in these Terms limits any mandatory refund, withdrawal, or consumer rights available under applicable law.</p>
+
+  <h2 class="heading">6. Parent gate and parental controls</h2>
+  <p>The App uses an adult-directed parent gate for protected settings or purchase-related areas where applicable. The gate is an age-screening convenience, not identity verification and not a substitute for supervision or Google Play purchase authentication.</p>
+  <p>Parents can use Google Play purchase authentication and Google Family Link to manage downloads, purchases, permissions, and screen time. More information is available at <a href="https://families.google/familylink/" target="_blank" rel="noopener noreferrer">Google Family Link</a>.</p>
+
+  <h2 class="heading">7. Third-party services</h2>
+  <p>The Android App relies on:</p>
+  <ul>
+    <li><strong>Google Play:</strong> distribution, purchase processing, subscription management, purchase restoration, fraud prevention, and refunds.</li>
+    <li><strong>RevenueCat:</strong> subscription product retrieval, purchase validation, anonymous entitlement management, and restoration.</li>
+    <li><strong>GitHub Pages:</strong> hosting the static Privacy Policy and Terms pages opened by a parent.</li>
+  </ul>
+  <p>Use of those services is also subject to their applicable terms and privacy policies. Their availability may affect subscription or legal-page functionality.</p>
+
+  <h2 class="heading">8. Privacy</h2>
+  <p>Our <a href="privacy-policy.html">Android Privacy Policy</a> explains how local preferences, purchase history, anonymous subscription records, support communications, and legal-page requests are handled. It is incorporated into these Terms by reference.</p>
+
+  <h2 class="heading">9. License and intellectual property</h2>
+  <p>Subject to these Terms, the Operator grants you a limited, personal, non-exclusive, non-transferable, revocable license to install and use the App on compatible devices for private, non-commercial educational use.</p>
+  <p>The App’s software, illustrations, images, sounds, animations, text, user interface, branding, and other content are owned by the Operator or used under license and are protected by intellectual-property laws. Except where law expressly permits, you may not:</p>
+  <ul>
+    <li>Copy, sell, sublicense, rent, distribute, publicly perform, or commercially exploit the App or its content.</li>
+    <li>Modify, reverse engineer, decompile, disassemble, or attempt to extract source code or protected assets.</li>
+    <li>Remove copyright, trademark, attribution, or proprietary notices.</li>
+    <li>Bypass premium access, purchase validation, security, or technical restrictions.</li>
+  </ul>
+  <p>Open-source components remain subject to their respective licenses.</p>
+
+  <h2 class="heading">10. Acceptable use</h2>
+  <p>You may not use the App unlawfully or in a way that harms the App, users, providers, or networks. In particular, you may not interfere with purchase validation, submit fraudulent purchase records, exploit introductory offers, introduce malicious code, probe systems without authorization, or use the App to infringe another person’s rights.</p>
+
+  <h2 class="heading">11. Updates and availability</h2>
+  <p>We may update the App to add content, improve compatibility or security, fix defects, or comply with law or Google Play requirements. Some updates may be required for continued operation, subscription validation, or compatibility with newer Android versions.</p>
+  <p>We may change or discontinue features or content, but we will not intentionally remove already-paid access in a manner that violates applicable consumer or subscription law. Internet, Google Play, RevenueCat, device, and operating-system outages may temporarily affect some functionality.</p>
+
+  <h2 class="heading">12. Suspension and termination</h2>
+  <p>You may stop using the App at any time by uninstalling it. Uninstalling does not cancel an active Google Play subscription; cancellation must be completed separately as described in Section 5.5.</p>
+  <p>We may restrict access where reasonably necessary to prevent fraud, protect security, comply with law, or address a material violation of these Terms. Any action will remain subject to mandatory consumer rights and valid paid entitlement.</p>
+
+  <h2 class="heading">13. Disclaimer</h2>
+  <p>The App is an educational entertainment tool and is not a substitute for professional teaching, medical, developmental, or childcare advice. Learning outcomes differ between children.</p>
+  <p>To the fullest extent permitted by law, the App is provided “as is” and “as available.” We do not promise uninterrupted operation, compatibility with every device configuration, or that every defect will be corrected immediately. Mandatory warranties and consumer protections that cannot lawfully be excluded remain unaffected.</p>
+
+  <h2 class="heading">14. Limitation of liability</h2>
+  <p>To the maximum extent permitted by applicable law, the Operator is not liable for indirect, incidental, special, or consequential loss arising from use of or inability to use the App, third-party service outages, unauthorized device use, or loss of locally stored preferences.</p>
+  <p>Where liability cannot be excluded, total liability related to the App will not exceed the amount paid for the App through Google Play during the 12 months before the event giving rise to the claim. This limitation does not apply to liability that cannot legally be limited, including applicable liability for intent, gross negligence, personal injury, or mandatory consumer remedies.</p>
+
+  <h2 class="heading">15. Governing law and consumer rights</h2>
+  <p>These Terms are governed by the laws of Poland, without excluding mandatory protections of the country where the consumer habitually resides. Nothing in these Terms deprives an EU, UK, or other protected consumer of rights that cannot be waived by contract.</p>
+  <p>Before filing a claim, please contact us so we can try to resolve the issue. A consumer may also use courts, regulators, or alternative dispute mechanisms available under applicable law. We do not require arbitration where mandatory local law gives the consumer another right.</p>
+
+  <h2 class="heading">16. Changes to these Terms</h2>
+  <p>We may revise these Terms to reflect App, subscription, provider, or legal changes. We will update the effective date and publish the revised Terms. Where required, material changes will be communicated in the App or through Google Play, and consent will be obtained before the change takes effect.</p>
+  <p>If you do not agree with revised Terms, stop using the App and cancel any subscription before the next renewal.</p>
+
+  <h2 class="heading">17. Severability and entire agreement</h2>
+  <p>If a provision is unenforceable, it will be limited to the minimum extent necessary and the remaining provisions will continue in effect. These Terms and the Android Privacy Policy form the agreement between the adult user and the Operator regarding the Android App, together with mandatory Google Play purchase terms.</p>
+
+  <h2 class="heading">18. Contact</h2>
+  <p>For App, subscription-entitlement, legal, or consumer questions:</p>
+  <p>Operator: <strong>Siarhei Kazachonak</strong></p>
+  <p>Email: <a href="mailto:kazachonaksiarhei@gmail.com">kazachonaksiarhei@gmail.com</a></p>
+  <p>Jurisdiction: Poland (European Union)</p>
+
+  <footer>
+    <p>Last updated: August 24, 2026</p>
+  </footer>
+</body>
+</html>
